@@ -3,9 +3,9 @@ import javax.swing.JFrame;
 public class BasicElements{
 
 	public static void main(String args[]){
-		JFrame myFrame = nre JFrame();
+		JFrame myFrame = new JFrame();
 
-		myFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		myFrame.setDefaultCloseOperation(myFrame.EXIT_ON_CLOSE);
 		myFrame.setVisible(true);
 		myFrame.setSize(900, 600);
 
